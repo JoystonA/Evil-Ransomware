@@ -1,0 +1,15 @@
+Pour pouvoir exécuter le programme il faut utiliser la librairie :
+- SecureString
+
+Pour l'installer il faut passer par pip en faisant :
+`pip install SecureString`
+
+Si une erreur (fichier 'openssl/crypto.h' manquant) apparaît lors de l'installation, il faut installer le repository suivant :
+- libssl-dev
+
+Pour l'installation il faut passer par apt en faisant :
+`apt install libssl-dev`
+
+Dans le cas où les paquets de 'openssl' et 'curl' ne sont pas disponible sur la machine hôte, il faut installer les repository suivants :
+`apt install openssl`
+`apt install curl`
